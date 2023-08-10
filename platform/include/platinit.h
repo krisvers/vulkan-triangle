@@ -4,6 +4,7 @@
 #include <platplatform.h>
 
 int platinit_init(void);
+int platinit_update(void);
 int platinit_deinit(void);
 
 #endif

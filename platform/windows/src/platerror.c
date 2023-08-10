@@ -16,5 +16,6 @@ void error_message(char * fmt, ...) {
 	vsnprintf(buffer, length, fmt, list);
 	va_end(list);
 
+	OutputDebugStringA(buffer);
 	MessageBoxA(NULL, buffer, "Error", MB_OK | MB_ICONERROR);
 }

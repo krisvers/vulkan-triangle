@@ -6,6 +6,7 @@
 typedef enum PlatReturnEnum {
 	PLATRETURN_GENERIC_ERROR = -1,
 	PLATRETURN_SUCCESS = 0,
+	PLATRETURN_SHOULD_CLOSE = 1,
 } platreturn_enum;
 
 #endif

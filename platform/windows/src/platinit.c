@@ -9,6 +9,12 @@ int platinit_init(void) {
 	return PLATRETURN_SUCCESS;
 }
 
+int platinit_update(void) {
+	glfwPollEvents();
+
+	return PLATRETURN_SUCCESS;
+}
+
 int platinit_deinit(void) {
 	glfwTerminate();
 
