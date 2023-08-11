@@ -16,3 +16,4 @@ int platwindow_update(platwindow_t * window);
 int platwindow_destroy(platwindow_t * window);
 
 #endif
+

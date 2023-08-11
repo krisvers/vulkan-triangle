@@ -8,3 +8,4 @@ int platinit_update(void);
 int platinit_deinit(void);
 
 #endif
+

@@ -4,6 +4,7 @@
 #include <krisvers_types.h>
 #include <krisvers_platform.h>
 #include <platerror.h>
+#include <stdlib.h>
 
 #ifdef FLAG_DEBUGBREAK
 	#ifdef MSVC
@@ -33,7 +34,8 @@
 		}												\
 	}
 #else
-	#define ASSERT(cond)
+	#define ASSERT(cond) {if (cond) {}};
 #endif
 
 #endif
+

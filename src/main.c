@@ -15,7 +15,7 @@ int main(void) {
 		platinit_update();
 		platwindow_update(&window);
 	}
-	error_message("googus gaggus %lf\n", 3.14);
+	error_message("googus gaggus %lf", 3.14);
 
 	platwindow_destroy(&window);
 
@@ -24,3 +24,4 @@ int main(void) {
 
 	return 0;
 }
+
