@@ -4,7 +4,10 @@
 #include <platinit.h>
 #include <platwindow.h>
 
-int main(void) {
+int main(int argc, char ** argv) {
+        for (int i = 0; i < argc; ++i) {
+            printf("%s\n", argv[i]);
+        }
 	printf("Hello, World\n");
 	platinit_init();
 
