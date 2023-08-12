@@ -5,3 +5,4 @@ include $(MAKEDEFINESDIR)/$(PLATFORM).make
 
 all: $(PLATFORM)
 debug: $(PLATFORM)-debug
+run: $(PLATFORM)-run
