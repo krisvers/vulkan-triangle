@@ -1,7 +1,7 @@
 CC = clang
 CFLAGS = -std=c99
 CWARNINGS = -Wall -Wextra -Wpedantic
-CLIBS = -Llib/linux -lglfw3
+CLIBS = -Llib/linux -lglfw
 CDEFINES =
 CDEBUGDEFINES = -DFLAG_DEBUGBREAK -DFLAG_ASSERTIONS -DFLAG_ABORT_ON_ASSERTION_FAILURE
 CINCLUDES = -Iinclude -Iplatform/include -Iplatform/linux/include -Ilib/include -Ilib/linux/include

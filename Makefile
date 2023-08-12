@@ -1,4 +1,4 @@
-PLATFORM = mac
+PLATFORM = linux
 MAKEDEFINESDIR = make
 
 include $(MAKEDEFINESDIR)/$(PLATFORM).make
