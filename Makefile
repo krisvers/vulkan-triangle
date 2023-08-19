@@ -1,7 +1,7 @@
 PLATFORM = linux
 MAKEDEFINESDIR = make
 
-.PHONY: $(PLATFORM) $(PLATFORM)-debug $(PLATFORM)-run
+.PHONY: $(PLATFORM) $(PLATFORM)-debug $(PLATFORM)-run all debug run
 
 include $(MAKEDEFINESDIR)/$(PLATFORM).make
 
